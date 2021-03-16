@@ -16,3 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+//For backend only
+Route::get('/users', 'App\Http\Controllers\UserController@index');
