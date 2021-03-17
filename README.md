@@ -1,4 +1,4 @@
-##How to use
+#How to use
 
 __General__
 - `git clone`- Clone the repository
